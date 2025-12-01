@@ -54,33 +54,39 @@ const App: React.FC = () => {
   const teamMembers = [
     {
       id: 1,
+      name: "Eng. Rahma Badar",
+      role: "IOT TA",
+      image: "./src/img/RB.png",
+    },
+    {
+      id: 2,
       name: "Mahmoud Usama",
       role: "Frontend Developer",
       image: "./src/img/myPic2.png",
     },
     {
-      id: 2,
+      id: 3,
       name: "Omar Abdelaal",
       role: "Backend Developer",
-      image: "",
-    },
-    {
-      id: 3,
-      name: "Mariam Khalil",
-      role: "IOT Hardware Specialist",
-      image: "",
+      image: "./src/img/OA.png",
     },
     {
       id: 4,
-      name: "Menna Mostafa",
-      role: "IOT Software Specialist",
-      image: "",
+      name: "Mariam Khalil",
+      role: "IOT Hardware Specialist",
+      image: "M",
     },
     {
       id: 5,
+      name: "Menna Mostafa",
+      role: "IOT Software Specialist",
+      image: "M",
+    },
+    {
+      id: 6,
       name: "Samira Gamal",
       role: "IOT Software Specialist",
-      image: "",
+      image: "S",
     },
   ];
 
