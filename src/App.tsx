@@ -5,6 +5,8 @@ import RB from "./img/RB.png";
 import MyPic from "./img/myPic2.png";
 import OA from "./img/OA.png";
 import MK from "./img/MK.png";
+import MM from "./img/MM.png";
+import SG from "./img/SG.png";
 import { theme } from "./theme";
 import NavBar from "./components/Nav";
 import Dashboard from "./components/dashboard";
@@ -83,13 +85,13 @@ const App: React.FC = () => {
       id: 5,
       name: "Menna Mostafa",
       role: "IoT Software Specialist",
-      image: "M",
+      image: MM,
     },
     {
       id: 6,
       name: "Samira Gamal",
       role: "IoT Software Specialist",
-      image: "S",
+      image: SG,
     },
   ];
 
