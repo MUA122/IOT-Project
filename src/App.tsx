@@ -1,7 +1,10 @@
 // src/App.tsx
 import React from "react";
 import { ThemeProvider, CssBaseline, Divider, Box } from "@mui/material";
-
+import RB from "./img/RB.png";
+import MyPic from "./img/myPic2.png";
+import OA from "./img/OA.png";
+import MK from "./img/MK.png";
 import { theme } from "./theme";
 import NavBar from "./components/Nav";
 import Dashboard from "./components/dashboard";
@@ -55,37 +58,37 @@ const App: React.FC = () => {
     {
       id: 1,
       name: "Eng. Rahma Badar",
-      role: "IOT TA",
-      image: "./src/img/RB.png",
+      role: "IoT Instructor",
+      image: RB,
     },
     {
       id: 2,
       name: "Mahmoud Usama",
       role: "Frontend Developer",
-      image: "./src/img/myPic2.png",
+      image: MyPic,
     },
     {
       id: 3,
       name: "Omar Abdelaal",
       role: "Backend Developer",
-      image: "./src/img/OA.png",
+      image: OA,
     },
     {
       id: 4,
       name: "Mariam Khalil",
-      role: "IOT Hardware Specialist",
-      image: "M",
+      role: "IoT Hardware Specialist",
+      image: MK,
     },
     {
       id: 5,
       name: "Menna Mostafa",
-      role: "IOT Software Specialist",
+      role: "IoT Software Specialist",
       image: "M",
     },
     {
       id: 6,
       name: "Samira Gamal",
-      role: "IOT Software Specialist",
+      role: "IoT Software Specialist",
       image: "S",
     },
   ];
