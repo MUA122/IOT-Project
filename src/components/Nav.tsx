@@ -21,7 +21,7 @@ import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import WhatshotIcon from "@mui/icons-material/Whatshot";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import TimelineIcon from "@mui/icons-material/Timeline";
-import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import Diversity2Icon from "@mui/icons-material/Diversity2";
 
 type NavItem = {
   label: string;
@@ -51,8 +51,8 @@ const NavBar: React.FC<NavBarProps> = ({ scrollOffset = 70 }) => {
       targetId: "charts-section",
     },
     {
-      label: "About System",
-      icon: <InfoOutlinedIcon />,
+      label: "Members",
+      icon: <Diversity2Icon />,
       targetId: "about-section",
     },
   ];
