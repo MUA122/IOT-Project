@@ -16,7 +16,7 @@ const TeamMembers: React.FC<TeamMembersProps> = ({ members }) => {
           mb: 3,
         }}
       >
-        Team Members
+        Members
       </Typography>
 
       <Box

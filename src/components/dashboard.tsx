@@ -108,7 +108,7 @@ const Dashboard: React.FC<DashboardProps> = ({
         >
           <Box>
             <Typography variant="h4" sx={{ fontWeight: 600, mb: 0.5 }}>
-              Realtime Monitoring
+              IoT-based Fire and Smoke Detection System
             </Typography>
             <Typography
               variant="body2"
@@ -162,6 +162,102 @@ const Dashboard: React.FC<DashboardProps> = ({
             mb: 3,
           }}
         >
+          {/* System Overview Card  */}
+          <Card sx={cardBaseStyles}>
+            <CardContent sx={{ position: "relative", zIndex: 1 }}>
+              <Stack
+                direction="row"
+                justifyContent="space-between"
+                alignItems="flex-start"
+                mb={2}
+              >
+                <Box>
+                  <Typography variant="h6" sx={{ fontWeight: 600 }}>
+                    System Overview
+                  </Typography>
+                </Box>
+              </Stack>
+
+              <Stack direction="row" spacing={2} alignItems="center">
+                <Box>
+                  <Typography variant="subtitle2" sx={{ opacity: 0.8 }}>
+                    Fire accidents are among the most common causes of property
+                    loss and safety hazards. Early detection is critical to
+                    preventing damage and ensuring quick response. This project
+                    presents a simple IoT-based Fire and Smoke Detection System
+                    that uses a flame sensor and an MQ-2 smoke sensor to detect
+                    fire or smoke at an early stage. When danger is detected,
+                    the system activates an alarm using a buzzer and LED,
+                    warning people nearby. The system can be further expanded to
+                    support wireless communication for remote monitoring.
+                  </Typography>
+                </Box>
+              </Stack>
+            </CardContent>
+          </Card>
+          {/* Project Objectives Card */}
+          <Box
+            sx={{
+              position: "absolute",
+              inset: "0 auto auto 0",
+              width: 150,
+              height: 150,
+              opacity: 0.18,
+              background:
+                "radial-gradient(circle at center, #ff5252, transparent 60%)",
+            }}
+          />
+
+          <Card sx={cardBaseStyles}>
+            <CardContent sx={{ position: "relative", zIndex: 1 }}>
+              <Stack
+                direction="row"
+                justifyContent="space-between"
+                alignItems="flex-start"
+                mb={2}
+              >
+                <Box>
+                  <Typography variant="h6" sx={{ fontWeight: 600 }}>
+                    Project Objectives
+                  </Typography>
+                </Box>
+              </Stack>
+
+              <Stack direction="row" spacing={2} alignItems="center">
+                <Box>
+                  <Typography variant="subtitle2" sx={{ opacity: 0.8 }}>
+                    <ul style={{ margin: 0, paddingLeft: "20px" }}>
+                      <li>Detect fire using a flame sensor.</li>
+                      <li>
+                        Detect smoke or harmful gases using the MQ-2 sensor.
+                      </li>
+                      <li>
+                        Trigger an alarm immediately when fire or smoke is
+                        detected.
+                      </li>
+                      <li>
+                        Provide visual and sound alerts through LED and buzzer.
+                      </li>
+                      <li>Enable IoT connectivity for remote alerts.</li>
+                    </ul>
+                  </Typography>
+                </Box>
+              </Stack>
+            </CardContent>
+          </Card>
+
+          <Box
+            sx={{
+              position: "absolute",
+              inset: "0 auto auto 0",
+              width: 150,
+              height: 150,
+              opacity: 0.18,
+              background:
+                "radial-gradient(circle at center, #ff5252, transparent 60%)",
+            }}
+          />
+          {/* MQ-2 Card */}
           <Card sx={cardBaseStyles}>
             <CardContent sx={{ position: "relative", zIndex: 1 }}>
               <Stack
@@ -242,7 +338,7 @@ const Dashboard: React.FC<DashboardProps> = ({
               }}
             />
           </Card>
-
+          {/* Flame Card */}
           <Card sx={cardBaseStyles}>
             <CardContent sx={{ position: "relative", zIndex: 1 }}>
               <Stack
